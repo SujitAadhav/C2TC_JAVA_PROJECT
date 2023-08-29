@@ -2,8 +2,8 @@ package com.cg.packageone;
 
 public class TestOne {
 
-	static int id;
-	static void display() {
+	public int id;
+	public void display() {
 		System.out.println("Access Modifier");
 	}
 	
