@@ -1,0 +1,14 @@
+package com.cg.generics;
+
+public class GenericConstructor {
+
+	private double v;
+	
+	public<T extends Number> GenericConstructor(T t) {
+		v=t.doubleValue();
+	}
+	
+	void show() {
+		System.out.println("The value of v in double: " + v);
+	}
+}
