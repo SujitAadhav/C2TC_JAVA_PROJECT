@@ -1,13 +1,13 @@
 package com.cg.generics;
 
 public class GenericClass<T> {
-	int data;
+	private T t;
 
-	void set(int data) {
-		this.data = data;
+	void set(T t) {
+		this.t = t;
 	}
 
-	int get() {
-		return data;
+	T get() {
+		return t;
 	}
 }
